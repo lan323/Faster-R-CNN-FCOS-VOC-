@@ -16,7 +16,6 @@ import matplotlib.pyplot as plt
 
 
 predict_data_dir = 'C:/Users/admin/Desktop/ObjectDetection/datasets/demo/images'
-# load_path = 'C:/Users/admin/Desktop/fasterrcnn_12222105_0.712649824453_caffe_pretrain.pth'
 load_path = 'C:/Users/admin/Desktop/fasterrcnn_2023_5_31.pth'
 faster_rcnn = FasterRCNNVGG16()
 trainer = FasterRCNNTrainer(faster_rcnn)
