@@ -16,6 +16,9 @@
 若要实现预测不在VOC数据集的图片时，可以把图片放在faster-rcnn/img文件夹下，main.py中可以设置该文件夹路径。
 predict_data_dir = 'C:/Users/admin/Desktop/faster-rcnn/img'
 load_path = 'C:/Users/admin/Desktop/fasterrcnn_2023_5_31.pth'
+predict_data_dir路径下的模型从百度网盘下载
+load_path下的图片数据可以自行下载添加，在这里已经加入了三张图片用于预测
+所有预测的结果中会包含：类别标签、得分和boundingbox。
 
 
 
